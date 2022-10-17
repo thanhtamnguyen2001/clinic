@@ -1,0 +1,50 @@
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.title {
+    font-size: 48px;
+    color: #3d404f;
+    line-height: 56px;
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+    margin: 20px 0 45px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #777777;
+    line-height: 150%;
+}
+
+.specialties {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+}
+
+.specialty {
+    font-size: 15px;
+    padding: 30px 0;
+    background: #fafafa;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    width: 190px;
+    border: 0.5px solid #eaeaea;
+    text-align: center;
+}
+
+.icon {
+    height: 50px;
+    display: block;
+    margin: auto;
+}
+
+.name {
+    margin-top: 20px;
+    color: #4db0e1;
+    font-size: 18px !important;
+    font-weight: 500;
+}

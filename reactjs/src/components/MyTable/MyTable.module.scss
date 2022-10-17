@@ -1,0 +1,141 @@
+.container {
+    margin: 80px 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: center;
+}
+
+.small td {
+    padding: 0 !important;
+}
+
+.green td {
+    color: #fff;
+    background-color: #478b60 !important;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.small {
+    margin-top: -40px;
+}
+
+.col-md-12 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.table-wrap {
+}
+
+.table {
+    min-width: 1000px !important;
+    width: 100%;
+    -webkit-box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
+    box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
+}
+.table thead th {
+    border: none;
+    padding: 30px;
+    font-size: 13px;
+    font-weight: 500;
+    color: gray;
+}
+.table thead tr {
+    background: #fff;
+    border-bottom: 4px solid #eceffa;
+}
+.table tbody tr {
+    margin-bottom: 10px;
+    border-bottom: 4px solid #f8f9fd;
+}
+.table tbody tr:last-child {
+    border-bottom: 0;
+}
+.table tbody th,
+.table tbody td {
+    border: none;
+    padding: 30px;
+    font-size: 14px;
+    background: #fff;
+    vertical-align: middle;
+}
+.table tbody td.status span {
+    position: relative;
+    border-radius: 30px;
+    padding: 4px 10px 4px 25px;
+}
+.table tbody td.status span:after {
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    width: 10px;
+    height: 10px;
+    content: '';
+    border-radius: 50%;
+}
+.btn {
+    background: #cff6dd;
+    color: #1fa750;
+}
+.table tbody td.status .active:after {
+    background: #23bd5a;
+}
+.table tbody td.status .waiting {
+    background: #fdf5dd;
+    color: #cfa00c;
+}
+.table tbody td.status .waiting:after {
+    background: #f2be1d;
+}
+.table tbody td .img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.table tbody td .email span {
+    display: block;
+}
+.table tbody td .email span:last-child {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.3);
+}
+.table tbody td .close span {
+    font-size: 12px;
+    color: #dc3545;
+}
+
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.align-items-center {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+.d-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
